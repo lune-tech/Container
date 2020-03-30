@@ -1,0 +1,34 @@
+{
+    "name": "Lava/Container",
+    "description": "A fast and intuitive dependency injection container.",
+    "keywords": [
+        "Lava",
+        "Volcano",
+        "container",
+        "service",
+        "provider"
+    ],
+    "authors": [
+        {
+            "name": "Volcano℃",
+            "email": "qq2682828@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lava\\Container\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lava\\Container\\":"src/"
+        }
+    },
+    "require": {
+        "psr/container": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^9.1@dev"
+    }
+}
