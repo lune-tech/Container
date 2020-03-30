@@ -26,4 +26,5 @@ final class ContainerTest extends TestCase
         print("值原样返回");
         $this->expectOutputString(get_class($container->get('instance')));
     }
+
 }

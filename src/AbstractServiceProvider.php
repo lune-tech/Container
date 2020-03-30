@@ -5,7 +5,7 @@ namespace Lava\Container;
 abstract class AbstractServiceProvider implements ServiceProviderInterface
 {
 
-    protected $container;
+    protected $app;
     /**
      * {@inheritdoc}
      */
@@ -31,7 +31,8 @@ abstract class AbstractServiceProvider implements ServiceProviderInterface
      */
     function setContainer($container)
     {
-        $this->container = $container;
+        $this->app = $container;
+        return $this;
     }
 
     /**
