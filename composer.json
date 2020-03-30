@@ -1,5 +1,5 @@
 {
-    "name": "Lava/Container",
+    "name": "lava/container",
     "description": "A fast and intuitive dependency injection container.",
     "keywords": [
         "Lava",
